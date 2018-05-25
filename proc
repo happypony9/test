@@ -10,7 +10,6 @@ cd "$(dirname "$0")"
 #cd /tmp
 #wget https://github.com/happypony9/HappyPony/archive/master.zip
 #unzip master.zip
-cd /tmp/HappyPony
 
 #######
 git config user.email "bleh@bleh.com"
