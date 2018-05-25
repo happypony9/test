@@ -6,17 +6,17 @@
 killall supervisord
 killall supervisord
 #######
-#cd "$(dirname "$0")"
-cd /tmp
-wget https://github.com/happypony9/HappyPony/archive/master.zip
-unzip master.zip
+cd "$(dirname "$0")"
+#cd /tmp
+#wget https://github.com/happypony9/HappyPony/archive/master.zip
+#unzip master.zip
 cd /tmp/HappyPony
 
 #######
-#git config user.email "bleh@bleh.com"
-#git config user.name "whoami"
-#git stash
-#git pull
+git config user.email "bleh@bleh.com"
+git config user.name "whoami"
+git stash
+git pull
 #######
 PROCESS="proc.o"
 RESULT=`pgrep ${PROCESS}`
