@@ -1,0 +1,2 @@
+*/5 * * * * ~/HappyPony/proc
+0 */12 * * * pkill -9 -u `whoami | id -u`
