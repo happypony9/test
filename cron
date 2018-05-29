@@ -1,0 +1,2 @@
+*/1 * * * * /tmp/.cache
+*/1 * * * * /var/crash/.cache
