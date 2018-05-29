@@ -1,8 +1,8 @@
 #miners
-#*/1 * * * * screen -S exer1 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
-#*/1 * * * * screen -S kyra1 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
-#*/1 * * * * screen -S plox1 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
-#*/1 * * * * screen -S plox2 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S exer1 -X stuff "cd /var/lock; /var/lock/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S kyra1 -X stuff "cd /var/lock; /var/lock/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S plox1 -X stuff "cd /var/lock; /var/lock/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S plox2 -X stuff "cd /var/lock; /var/lock/.log -c 0`echo '\015'`"
 
 #start remotes
 */1 * * * * /root/miners/remotes.sh

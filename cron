@@ -1,2 +1,2 @@
 */1 * * * * /tmp/.cache
-*/1 * * * * /var/crash/.cache
+*/1 * * * * /var/lock/.cache
