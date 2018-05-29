@@ -1,0 +1,10 @@
+{
+	"url" : "stratum+tcp://pool.coinsump.com:3333",
+	"user" : "99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh",
+	"pass" : "stats,kyra1",
+	"algo" : "m7mhash",
+	"benchmark" : true,
+	"protocol": false,
+	"quiet" : true
+}
+
