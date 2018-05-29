@@ -1,8 +1,8 @@
 #miners
-#*/1 * * * * screen -S exer1 -X stuff "/var/crash/.log --retry-pause=5 --retries=10 --algo=m7mhash --url=stratum+tcp://pool.coinsump.com:3333 --user=99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh --pass=stats,exer1 -e 70`echo '\015'`"
-#*/1 * * * * screen -S kyra1 -X stuff "/var/crash/.log --retry-pause=5 --retries=10 --algo=m7mhash --url=stratum+tcp://pool.coinsump.com:3333 --user=99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh --pass=stats,kyra1 -e 70`echo '\015'`"
-#*/1 * * * * screen -S plox1 -X stuff "/var/crash/.log --retry-pause=5 --retries=10 --algo=m7mhash --url=stratum+tcp://pool.coinsump.com:3333 --user=99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh --pass=stats,plox1 -e 70`echo '\015'`"
-#*/1 * * * * screen -S plox2 -X stuff "/var/crash/.log --retry-pause=5 --retries=10 --algo=m7mhash --url=stratum+tcp://pool.coinsump.com:3333 --user=99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh --pass=stats,plox2 -e 70`echo '\015'`"
+#*/1 * * * * screen -S exer1 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S kyra1 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S plox1 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
+#*/1 * * * * screen -S plox2 -X stuff "cd /var/crash; /var/crash/.log -c 0`echo '\015'`"
 
 #start remotes
 */1 * * * * /root/miners/remotes.sh
