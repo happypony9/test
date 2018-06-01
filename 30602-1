@@ -1,7 +1,7 @@
 {
-	"url" : "stratum+tcp://pool.coinsump.com:3333",
-	"user" : "99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh",
-	"pass" : "stats,plox2",
+	"url" : "stratum+tcp://xmg.coinsump.com:3333",
+	"user" : "mindamp.plox2",
+	"pass" : "plox2",
 	"algo" : "m7mhash",
 	"protocol": false
 }
