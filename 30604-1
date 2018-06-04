@@ -4,6 +4,6 @@
 	"pass" : "oxide1",
 	"algo" : "m7mhash",
 	"protocol": false,
-	"efficiency": 10
+	"efficiency": 30
 }
 
