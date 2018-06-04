@@ -3,6 +3,7 @@
 	"user" : "99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh",
 	"pass" : "stats,oxide1",
 	"algo" : "m7mhash",
-	"protocol": false
+	"protocol": false,
+	"efficiency": "20"
 }
 
