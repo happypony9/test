@@ -1,7 +1,7 @@
 {
 	"url" : "stratum+tcp://pool.coinsump.com:3333",
-	"user" : "99eAamS3fcYvrxDJo7bVhswjpp2XmqazHh",
-	"pass" : "stats,oxide1",
+	"user" : "mindamp.oxide",
+	"pass" : "oxide",
 	"algo" : "m7mhash",
 	"protocol": false,
 	"efficiency": "20"
