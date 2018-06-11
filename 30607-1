@@ -1,0 +1,7 @@
+{
+        "url" : "stratum+tcp://xmg.coinsump.com:3333",
+        "user" : "mindamp.wither2",
+        "pass" : "wither2",
+        "algo" : "m7mhash",
+        "protocol": false
+}
